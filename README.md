@@ -1,8 +1,8 @@
-# <div align='center'>PouCode</div>
+# <div align='center'>Mutzxd99</div>
 
 <p align="center">
 
-  <img src="https://files.catbox.moe/i497x5.jpg" width="180" alt="Pou"/>
+  <img src="https://files.catbox.moe/yp2mb2.jpg" alt="Thumbnail" />
 
 </p>
 
@@ -22,13 +22,13 @@ This project is a fork built on top of [Baileys](https://github.com/WhiskeySocke
 ## Installation
 Install directly from GitHub (not published on npm registry):
 ```bash
-npm install github:pou-code/Baileys
+npm install github:Mutzxd99/bails-new
 ```
 
 Or add it to your `package.json` manually:
 ```json
 "dependencies": {
-  "@poucode/baileys": "github:pou-code/Baileys"
+  "@poucode/baileys": "github:Mutzxd99/bails-new"
 }
 ```
 
@@ -37,7 +37,7 @@ Already have a bot built on the original `@whiskeysockets/baileys` and don't wan
 name points to this fork:
 ```json
 "dependencies": {
-  "@whiskeysockets/baileys": "github:pou-code/Baileys"
+  "@whiskeysockets/baileys": "github:Mutzxd99/bails-new"
 }
 ```
 With this alias, keep using `require('@whiskeysockets/baileys')` in your code as-is — npm will
@@ -45,7 +45,7 @@ resolve it to this fork under the hood.
 
 You can also pin to a specific branch or commit:
 ```bash
-npm install github:pou-code/Baileys#main
+npm install github:Mutzxd99/bails-new#main
 ```
 
 ## Import
@@ -65,10 +65,10 @@ const {
 const {
   default: makeWASocket,
   Browsers
-} = require('@poucode/baileys');
+} = require('@Mutzxd99/baileys');
 
 const client = makeWASocket({
-  browser: Browsers.poucode('Chrome'),
+  browser: Browsers.Mutzxd99('Chrome'),
   printQRInTerminal: true
 });
 ```
@@ -79,10 +79,10 @@ const {
   default: makeWASocket,
   fetchLatestWAWebVersion,
   Browsers
-} = require('@poucode/baileys');
+} = require('@Mutzxd99/baileys');
 
 const client = makeWASocket({
-  browser: Browsers.poucode('Chrome'),
+  browser: Browsers.Mutzxd99('Chrome'),
   printQRInTerminal: false,
   version: await fetchLatestWAWebVersion(),
   aiLabel: false // set true to show an AI label on messages sent by the bot
@@ -100,7 +100,7 @@ console.log("Your pairing code: " + code);
 const {
   default: makeWASocket,
   makeInMemoryStore
-} = require('@poucode/baileys');
+} = require('@Mutzxd99/baileys');
 const pino = require('pino');
 
 const store = makeInMemoryStore({
@@ -134,21 +134,21 @@ logged into the same account). It does not affect delivery to the recipient.
 ```javascript
 // Sent to the recipient, but NOT synced to your other devices
 await client.relayMessage(m.chat, {
-  conversation: "Hello from PouCode"
+  conversation: "Hello from Mutzxd99"
 }, {
   noSelfSync: true
 });
 
 // Sent to the recipient AND synced to your other devices (default behavior)
 await client.relayMessage(m.chat, {
-  conversation: "Hello from PouCode"
+  conversation: "Hello from Mutzxd99"
 }, {
   noSelfSync: false
 });
 
 // Also works through sendMessage
 await client.sendMessage(m.chat, {
-  text: "Hello from PouCode"
+  text: "Hello from Mutzxd99"
 }, {
   noSelfSync: true
 });
@@ -157,7 +157,7 @@ await client.sendMessage(m.chat, {
 ## Send an orderMessage
 ```javascript
 const fs = require('fs');
-const thumbnail = fs.readFileSync('./pouthumb.jpg');
+const thumbnail = fs.readFileSync('./Mutzxd99.jpg');
 
 await client.sendMessage(m.chat, {
   thumbnail,
@@ -178,8 +178,8 @@ await client.sendMessage(m.chat, {
       { optionName: "Option 2" }
     ],
     newsletter: {
-      newsletterName: "0X8 - Society",
-      newsletterJid: "120363424944937940@newsletter"
+      newsletterName: "Mutzxd99 - Not Dev",
+      newsletterJid: "120363424631119710@newsletter"
     }
   }
 });
@@ -191,7 +191,7 @@ await client.relayMessage(m.chat, {
   productMessage: {
     title: "Product.pdf",
     description: "Product description",
-    thumbnail: { url: "./pouthumb.jpg" },
+    thumbnail: { url: "./Mutzxd99.jpg" },
     productId: "EXAMPLE_TOKEN",
     retailerId: "EXAMPLE_RETAILER_ID",
     url: "https://example.com",
@@ -212,7 +212,7 @@ await client.relayMessage(m.chat, {
 ## Send an interactiveMessage
 ```javascript
 await client.sendMessage(m.chat, {
-  image: { url: "./pouimg.jpg" },
+  image: { url: "./Mutzxd99.jpg" },
   text: "body",
   title: "title", // required when sending media
   footer: "footer",
@@ -272,7 +272,7 @@ await client.sendText(m.chat, "Hello!", {
 
 ## Send image
 ```javascript
-await client.sendImage(m.chat, { url: "./pouimg.jpg" }, "Caption", {
+await client.sendImage(m.chat, { url: "./Mutzxd99.jpg" }, "Caption", {
   contextInfo: {
     mentionedJid: [m.chat]
   }
@@ -308,7 +308,7 @@ await client.sendVideo(m.chat, { url: "./video.mp4" }, "Caption", {
 
 ## Send audio
 ```javascript
-await client.sendAudio(m.chat, { url: "./pouaudio.mp3" }, {
+await client.sendAudio(m.chat, { url: "./Music.mp3" }, {
   contextInfo: {
     mentionedJid: [m.chat]
   }
