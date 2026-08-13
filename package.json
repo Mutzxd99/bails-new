@@ -1,8 +1,8 @@
 {
-  "name": "@poucode/baileys",
+  "name": "@Mutzxd99/bails-new",
   "type": "module",
-  "version": "1.0.0",
-  "description": "A WebSockets library for interacting with WhatsApp Web \u2014 PouCode fork of Baileys",
+  "version": "3.7.0",
+  "description": "A WebSockets library for interacting with WhatsApp Web \u2014 Mutzxd99 fork of Baileys",
   "keywords": [
     "poucode",
     "baileys",
@@ -12,13 +12,13 @@
     "wa-bot",
     "whatsapp bot"
   ],
-  "homepage": "https://github.com/pou-code/Baileys",
+  "homepage": "https://github.com/Mutzxd99/bails-new",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pou-code/Baileys.git"
+    "url": "git+https://github.com/Mutzxd99/bails-new.git"
   },
   "license": "MIT",
-  "author": "PouCode",
+  "author": "Mutzxd99",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
