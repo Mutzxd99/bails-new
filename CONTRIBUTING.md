@@ -1,13 +1,13 @@
-# Contributing to PouCode
+# Contributing to Mutzxd99
 
-Thanks for your interest in contributing! PouCode is a fork of
+Thanks for your interest in contributing! Mutzxd99 is a fork of
 [Baileys](https://github.com/WhiskeySockets/Baileys); contributions here follow
 similar conventions to the upstream project.
 
 ## Reporting issues
 
 - Search existing issues before opening a new one.
-- Include: Node.js version, `@poucode/baileys` version, a minimal reproduction,
+- Include: Node.js version, `@Mutzxd99/bails-new` version, a minimal reproduction,
   and the relevant log output (with sensitive data like phone numbers redacted).
 
 ## Submitting changes
