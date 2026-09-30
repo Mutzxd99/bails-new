@@ -7,7 +7,7 @@
 A high-performance WhatsApp Web library built on [Baileys](https://github.com/WhiskeySockets/Baileys), with critical paths accelerated via a [Rust WASM bridge](https://github.com/7ucg/whatsapp-rust-bridge).
 
 <p align="center">
-  <img alt="package" src="https://img.shields.io/badge/package-%40badzz88%2Fbaileys-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+  <img alt="package" src="https://img.shields.io/badge/package-%40Mutzxd99%2Fbaileys-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
   <img alt="version" src="https://img.shields.io/badge/version-1.1.8-blue?style=for-the-badge">
 </p>
 <p align="center">
